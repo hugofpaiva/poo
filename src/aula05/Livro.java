@@ -7,6 +7,8 @@ public class Livro {
     private static int currentID = 100;
     private boolean emprestado = false;
     
+    
+    // construtor
     public Livro(String titulo) {
         this.titulo = titulo;
         tipoEmprestimo="NORMAL";
@@ -14,6 +16,7 @@ public class Livro {
         currentID+=1;
     }
     
+    // construtor
     public Livro(String titulo, String tipoEmprestimo)
     {
         this.titulo = titulo;
@@ -23,6 +26,7 @@ public class Livro {
     }
    
     
+    // gets and sets
     public int getId() {
         return id;
     }
@@ -48,6 +52,8 @@ public class Livro {
         Livro.currentID = currentID;
     }
     
+    
+    // verificaçao de emprestimo
     public boolean isEmprestado() {
         return emprestado;
     }
