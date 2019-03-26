@@ -28,6 +28,8 @@ public class Bolseiro extends Aluno {
 	public void setBolsa(double bolsa) {
 		Bolsa = bolsa;
 	}
+	
+	int[] x = new int[10];
 
 	@Override
 	public String toString() {
