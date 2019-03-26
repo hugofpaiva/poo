@@ -22,6 +22,7 @@ public class teste {
 		char code = 'F';
 		boolean c = (code >= 'M') && (code <= 'Z');
 		System.out.println(c);
+		
 
 	}
 }
