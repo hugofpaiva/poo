@@ -81,7 +81,7 @@ public class Conjunto {
 		Conjunto maior;
 		Conjunto menor;
 		
-		if (this.size > dif.size()) {
+		if (this.size() > dif.size()) {
 			menor = dif;
 			maior = this;
 		}
@@ -92,9 +92,9 @@ public class Conjunto {
 		
 		Conjunto difference =  new Conjunto();
 		
-		for(int elem : maior.vet){
-			if (!menor.contains(elem))
-				difference.insert(elem);
+		for(int i=0; i<maior.size(); i++){
+			if (!menor.contains(maior.vet[i]))
+				difference.insert(maior.vet[i]);
 				
 		}
 		return difference;
