@@ -3,8 +3,8 @@ package aula07;
 public class Bola extends Obj_Movel{
 	private String cor;
 
-	public Bola(double x, double y, double vmax, double distperc, String cor) {
-		super(x, y, vmax, distperc);
+	public Bola(double x, double y, double vmax, String cor) {
+		super(x, y, vmax);
 		this.cor = cor;
 	}
 
