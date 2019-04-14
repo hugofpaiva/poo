@@ -19,9 +19,11 @@ public class Pesado_P extends Pesado{
 
 	@Override
 	public String toString() {
-		return "Pesado_P [MAXPassageiros=" + MAXPassageiros + "]";
+		return "Pesado_P [MAXPassageiros=" + MAXPassageiros + ", nQuadro=" + getNQuadro() + ", peso="
+				+ getPeso() + ", Matricula=" + getMatricula() + ", Marca=" + getMarca() + ", Modelo="
+				+ getModelo() + ", cilindrada=" + getCilindrada() + "]";
 	}
-	
+
 	
 
 }

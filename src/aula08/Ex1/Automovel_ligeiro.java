@@ -28,9 +28,12 @@ public class Automovel_ligeiro extends Veiculo{
 
 	@Override
 	public String toString() {
-		return "Automovel_ligeiro [NQuadro=" + NQuadro + ", CBag=" + CBag + "]";
+		return "Automovel_ligeiro [NQuadro= " + NQuadro + ", CBag= " + CBag + ", Matricula " + getMatricula()
+				+ ", Marca= " + getMarca() + ", Modelo= " + getModelo() + ", Cilindrada= " + getCilindrada()
+				+ "]";
 	}
-	
+
+
 	
 	
 

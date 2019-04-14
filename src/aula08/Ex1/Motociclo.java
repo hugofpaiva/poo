@@ -18,8 +18,10 @@ public class Motociclo extends Veiculo {
 
 	@Override
 	public String toString() {
-		return "Motociclo [tipo=" + tipo + "]";
+		return "Motociclo [Tipo: " + tipo + ", Matrícula: " + getMatricula() + ", Marca: " + getMarca()
+				+ ", Modelo: " + getModelo() + ", Cilindrada: " + getCilindrada() + "]";
 	}
+
 	
 	
 	
