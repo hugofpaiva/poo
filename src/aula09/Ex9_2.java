@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.TreeSet;
-import java.util.Vector;
 
 public class Ex9_2 {
 	public static void main(String[] args) {
