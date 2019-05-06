@@ -135,6 +135,7 @@ public class Ex9_1 {
 		while(itr.hasNext()) {
 	         Pessoa element = itr.next();
 	         System.out.print(element + " ");
+	         System.out.println();
 	      }
 	      System.out.println();
 		
@@ -158,6 +159,7 @@ public class Ex9_1 {
 		while(itr1.hasNext()) {
 	         Data element = itr1.next();
 	         System.out.print(element + " ");
+	         System.out.println();
 	      }
 	      System.out.println();
 	    

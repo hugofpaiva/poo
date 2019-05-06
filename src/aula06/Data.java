@@ -1,6 +1,6 @@
 package aula06;
 
-public class Data {
+public class Data implements Comparable<Data> {
 	private int dia;
 	private int mes;
 	private int ano;
@@ -38,6 +38,21 @@ public class Data {
 	@Override
 	public String toString() {
 		return "Data: " + dia + "/" + mes + "/" + ano;
+	}
+	public int compareTo(Data o) {
+		if(o.getAno()==ano) {
+			if(o.getMes()==mes) {
+				if(o.getDia()==dia) {
+					return 0;
+				}else {
+					return dia-o.getDia();
+				}
+			}else {
+				return mes-o.getMes();
+			}
+		}else {
+			return ano-o.getAno();
+		}
 	}
 	
 	

@@ -37,7 +37,7 @@ public class Pessoa {
 
 	@Override
 	public String toString() {
-		return nome + ", cc: " + cc + " Data: " + dataNasc;
+		return nome + ", cc: " + cc + " " + dataNasc;
 	}
 	
 	
