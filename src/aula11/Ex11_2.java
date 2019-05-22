@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ex11_2 {
@@ -56,25 +58,56 @@ public class Ex11_2 {
 		} catch (FileNotFoundException e) {
 			System.out.println("O ficheiro não foi encontrado.");
 		}
-		int count = 0;
+		//Tabela lista de Voos e média de Atrasos
+		HashMap<String, List<Integer>> companhias = new HashMap<>();
+		ArrayList<Integer> time = new ArrayList<>();
+		
+		HashMap<String, String> companhiasm = new HashMap<>();
 		for (Voo i : voos) {
-			System.out.println(i);
-			/*String companhia = i.getCompanhia();
+			//System.out.println(i);
+			String companhia = i.getCompanhia();
 			String Atraso = i.getAtraso();
 			String[] delay = Atraso.split(":");
 			int hourd = 0;
 			int mind = 0;
-			if (Atraso.equals(" ")) {
+			if (Atraso.equals("Atraso") || Atraso.equals(" ")) {
 				continue;
 			} else {
 				mind = Integer.parseInt(delay[1]);
 				hourd = Integer.parseInt(delay[0]);
-				int ss = (hourd*60*60)+(mind*60);
-				count+=1;
-			}*/
+				Integer ss = (hourd * 60 * 60) + (mind * 60);
+				if (companhias.containsKey(companhia)) {
+					ArrayList<Integer> timelist = (ArrayList<Integer>) companhias.get(companhia);
+					timelist.add(ss);
+					companhias.put(companhia, timelist);
+				} else {
+					time.add(ss);
+					companhias.put(companhia, time);
+				}
+			}
+			
+
+			
 		}
-		
+		for(String l : companhias.keySet()) {
+			int total = 0;
+			for(int x : companhias.get(l)) {
+				total+=x;
+			}
+			System.out.println(l+":"+total);
+			int media = total/companhias.get(l).size();
+			int min = (media/60)%60;
+			int hour = (media/60)/60;
+			String smin = String.valueOf(min);
+			String shour = String.valueOf(hour);
+			String times = shour + ":" +smin;
+			companhiasm.put(l, times);
+			
+		}
+		System.out.println(companhiasm);
 
 	}
+	
+	
 
 }
