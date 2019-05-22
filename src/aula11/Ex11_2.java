@@ -59,7 +59,7 @@ public class Ex11_2 {
 		int count = 0;
 		for (Voo i : voos) {
 			System.out.println(i);
-			String companhia = i.getCompanhia();
+			/*String companhia = i.getCompanhia();
 			String Atraso = i.getAtraso();
 			String[] delay = Atraso.split(":");
 			int hourd = 0;
@@ -71,7 +71,7 @@ public class Ex11_2 {
 				hourd = Integer.parseInt(delay[0]);
 				int ss = (hourd*60*60)+(mind*60);
 				count+=1;
-			}
+			}*/
 		}
 		
 
