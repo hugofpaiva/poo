@@ -34,7 +34,6 @@ public class Ex12_2 {
 				System.out.println(i);
 			}
 			System.out.println();
-
 			// Ordenado por ordem decrescente de score
 			System.out.println("Ordenado por ordem decrescente de score\n");
 			movies.sort((p2, p1) -> p1.getScore().compareTo(p2.getScore()));

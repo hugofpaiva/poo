@@ -1,0 +1,8 @@
+Percentagem de cabines disponíveis para venda: 0,33 
+Média de pessoas por quarto, nas cabines ocupadas: 1,33 
+Cabine com Janela MAR [Nº1 ( max 4 pessoas ) : [Marcelo R. de Sousa]]
+Cabine com Janela MAR [Nº4 ( max 4 pessoas ) : [Charles Sean, Matts Magnusson, Miki Rosberg, Ursula Magnusson]]
+Cabine com Janela INTERIOR [Nº15 ( max 4 pessoas ) : [António Campos, Maria Campos, Marina Mota]]
+Cabine com Janela INTERIOR [Nº17 ( max 2 pessoas ) : [Manuel Luz, Maria Luz]]
+Cabine com Janela INTERIOR [Nº25 ( max 2 pessoas ) : [Anonymous1, Anonymous2]]
+Suite c/3 quartos [Nº102 ( max 6 pessoas ) : [A. Jolie, B. Pitt, Knox Leon, Shiloh]]

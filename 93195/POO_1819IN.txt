@@ -1,0 +1,24 @@
+
+Alínea 1) ----------------------------------
+
+MorroDeSede tem 4 bebidas
+PubOO tem 3 bebidas
+PRODUTOS DE MorroDeSede: [Bebida [nome=Vinho Branco, teorAlc=11.5], Bebida [nome=Sumo, teorAlc=0.0], Bebida [nome=Infusao, teorAlc=0.0], Bebida [nome=Cerveja, teorAlc=6.3]]
+PRODUTOS DE So_Leitao: [PicaPica, Sandocha]
+PRODUTOS DE A_Chicha: [PicaPica, Sandocha]
+MERCADO: Mercado O Festival de Petiscos
+	 Tendas: [Tenda [num=100, nome=PubOO], Tenda [num=102, nome=MorroDeSede], Tenda [num=201, nome=So_Leitao], Tenda [num=202, nome=A_Chicha]]
+TOTAL DE PRODUTOS DO MERCADO: 11
+
+Alínea 2) ----------------------------------
+
+MERCADO: Mercado FoodSpace
+	 Tendas: [Tenda [num=10, nome=OPipo], Tenda [num=11, nome=Maresia], Tenda [num=12, nome=BarFresco], Tenda [num=20, nome=KatieDosBifes], Tenda [num=21, nome=ManuelQuebraOssos], Tenda [num=22, nome=AliceDasMaravilhas]]
+Tenda [num=10, nome=OPipo]
+Tenda [num=11, nome=Maresia]
+Tenda [num=12, nome=BarFresco]
+Tenda [num=20, nome=KatieDosBifes]
+Tenda [num=21, nome=ManuelQuebraOssos]
+Tenda [num=22, nome=AliceDasMaravilhas]
+-- LISTA DE PRODUTOS DO MERCADO --
+Bifana, Costeleta, Douradas, Mousse, Nata, Panado, Perninha, Prego, 

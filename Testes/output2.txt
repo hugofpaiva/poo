@@ -1,0 +1,7 @@
+A Escola com o International House Aveiro e endereco Rua Domingos Carrancho, 1, 3800-145 Aveiro, tem estes testes:
+Disciplina               Professor Responsável         data/hora           salas          
+Inglês para Empresas    Anthony Laurel                12.06.2015 15h      15; 22         
+Alemão                  Manfred Glesner               12.06.2015 10h      13             
+Italiano Intermédio     Luca Benini                   01.06.2015 10h      25             
+Inglês Avançado        Anthony Laurel                05.06.2015 10h      3              
+

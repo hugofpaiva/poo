@@ -1,0 +1,11 @@
+percentagem de cabines disponíveis para venda: 33.333333333333336%
+média de pessoas por quarto nas Suites ocupadas: 1.3333333333333333
+[Nº1 ( max 4 pessoas ) : [Marcelo R. de Sousa]]
+[Nº4 ( max 4 pessoas ) : [Charles Sean, Matts Magnusson, Miki Rosberg, Ursula Magnusson]]
+[Nº15 ( max 4 pessoas ) : [António Campos, Maria Campos, Marina Mota]]
+[Nº17 ( max 2 pessoas ) : [Manuel Luz, Maria Luz]]
+[Nº25 ( max 2 pessoas ) : [Anonymous1, Anonymous2]]
+[Nº100 ( max 6 pessoas ) : Disponível para Venda!!!]
+[Nº102 ( max 6 pessoas ) : [A. Jolie, B. Pitt, Knox Leon, Shiloh]]
+[Nº130 ( max 4 pessoas ) : Disponível para Venda!!!]
+[Nº131 ( max 4 pessoas ) : Disponível para Venda!!!]

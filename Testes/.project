@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Testes</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>93015</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/Universidade/Engenharia%20Inform%C3%A1tica/1%C2%BA%20Ano/2%C2%BA%20Semestre/Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/Daniel%20Gomes/Exame%20Pr%C3%A1tico/93015</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
