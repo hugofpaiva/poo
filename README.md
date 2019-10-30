@@ -1,3 +1,3 @@
-# POO
+# Programação Orientada a Objetos
 
-Resoluções das Aulas Práticas no ano letivo 2018/2019 por Hugo Paiva.
+Material de apoio e resoluções das Aulas Práticas do ano letivo 2018/2019, por **Hugo Paiva**.
